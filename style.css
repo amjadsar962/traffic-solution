@@ -2,11 +2,32 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+main {
+    margin: 20px;
+}
+
 button {
     padding: 10px 20px;
-    background: #007bff;
+    background: #28a745;
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
 }
